@@ -1,0 +1,8 @@
+def carpet_cost(l,w,c):
+    total_cost = ((l * w) / 3) * c
+
+print('The cost to carpet this room will be $', format(total_cost, ',.2f'))length = int(input("What is the length of tbe room you're trying to carpet?: "))
+width = int(input("What is the width of tbe room you're trying to carpet?: "))
+cost = int(input("What is the cost per square yard of tbe room you're trying to carpet?: "))
+
+carpet_cost(length,width,cost)
